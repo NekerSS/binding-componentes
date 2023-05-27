@@ -1,0 +1,7 @@
+
+
+<app-nav (changed)="onChanged($event)" [title]="name"></app-nav>
+
+<p>Escribe un nombre</p> 
+<input [(ngModel)]="name" type="text" />
+<h1>{{name + " " + apellido}}</h1>
